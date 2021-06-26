@@ -2,7 +2,7 @@
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif !default;
+$sans-serif-family:          'Acme', 'Helvetica Neue',  Arial, sans-serif !default;
 
 $none:                       0   !default;
 $border-thin:                1px !default;
@@ -46,12 +46,12 @@ $default-color:              #888888 !default;
 $default-states-color:       lighten($default-color, 6%) !default;
 $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 
-$primary-color:              #18ce0f !default;
+$primary-color:              #3DBD35 !default;
 $primary-states-color:       lighten($primary-color, 6%) !default;
 $primary-color-opacity:      rgba(249, 99, 50, .3) !default;
 $primary-color-alert:        rgba(249, 99, 50, .8) !default;
 
-$success-color:              #18ce0f !default;
+$success-color:              #3DBD35 !default;
 $success-states-color:       lighten($success-color, 6%) !default;
 $success-color-opacity:      rgba(24, 206, 15, .3) !default;
 $success-color-alert:        rgba(24, 206, 15, .8) !default;
@@ -151,14 +151,14 @@ $font-size-h4:                 1.5em        !default; // ~ 24px
 $font-size-h5:                 1.3em        !default; // ~ 22px
 $font-size-h6:                 .9em         !default; // ~ 12px
 
-$font-paragraph:               1.2em          !default;
-$font-size-navbar:             1em          !default;
+$font-paragraph:               1.4em          !default;
+$font-size-navbar:             1.2em          !default;
 $font-size-mini:               0.7142em     !default;
 $font-size-small:              0.8571em     !default;
 $font-size-base:               14px         !default;
-$font-size-large:              1em          !default;
+$font-size-large:              1.2em          !default;
 $font-size-large-navbar:       20px         !default;
-$font-size-blockquote:         1.1em        !default; // ~ 15px
+$font-size-blockquote:         1.3em        !default; // ~ 15px
 
 $font-weight-light:             300         !default;
 $font-weight-normal:            400         !default;
