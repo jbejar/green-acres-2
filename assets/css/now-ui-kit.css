@@ -3796,7 +3796,7 @@ img {
     left: 0; }
 
 .card-signup {
-  max-width: 350px;
+  max-width: 450px;
   margin: 0 auto; }
   .card-signup .card-header {
     margin: 0 20px;
@@ -4834,6 +4834,12 @@ img {
       transition: width .2s linear; }
   .burger-menu .navbar.bg-white:not(.navbar-transparent) .navbar-toggler-bar {
     background: #888888; }
+  .navbar.navbar-transparent {
+    opacity: 0;  
+  }
+  .navbar:not(.navbar-transparent) .navbar-brand > img{
+    opacity: 1;  
+  }
   .burger-menu .top-bar {
     -webkit-transform: rotate(0);
             transform: rotate(0); }
@@ -5041,4 +5047,13 @@ img {
   .index-page .page-header .category-absolute {
     margin-top: -330px; } }
 
+
+    
+    .navbar-transparent a > img {
+      opacity:0
+    }
+
+    .navbar:not(.navbar-transparent) > a > img {
+      opacity:1
+    }
 /*# sourceMappingURL=now-ui-kit.css.map */
